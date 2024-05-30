@@ -1,4 +1,4 @@
-                                                                   Tic Tac Toe
+                                                     Tic Tac Toe
 
 Introduction
 
@@ -17,6 +17,7 @@ In this project, I've utilized two powerful tools for state management in Flutte
 
 
 
+https://github.com/ahmedalam782/Tic-Tac-Toe/assets/63088248/fc415d8f-9738-4d9d-8e23-4aa465a2eddb
 
 
 

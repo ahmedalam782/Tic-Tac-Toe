@@ -14,3 +14,23 @@ Multiplayer : Compete against friends, set custom names, and choose "X" or "O" t
 State Management
 
 In this project, I've utilized two powerful tools for state management in Flutter: Cubit and Bloc.
+
+
+
+
+
+
+
+Build Process
+
+Follow the Flutter Guide for getting started building a flutter project.
+Clone or download the repo
+
+ git clone
+ 
+						 https://github.com/ahmedalam782/Tic-Tac-Toe
+
+Get dependencies
+
+               flutter pub get
+

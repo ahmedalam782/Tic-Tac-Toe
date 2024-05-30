@@ -4,14 +4,12 @@ import 'package:sizer/sizer.dart';
 import 'package:tic_tac_toe_xo_game/UI/screens/pick_ai.dart';
 import 'package:tic_tac_toe_xo_game/UI/screens/players_names_screen.dart';
 
-
 import '../../Shared/components/custom_btn.dart';
 import '../../Shared/components/wrapper_container.dart';
 import '../../Shared/services/sound.dart';
 import '../../Shared/themes/color.dart';
 import '../cubit/cubit.dart';
 import '../cubit/state.dart';
-
 import '../widgets/bottomsheet_widget.dart';
 import '../widgets/history_list.dart';
 import '../widgets/logo.dart';
@@ -84,7 +82,7 @@ class HomeScreen extends StatelessWidget {
                       width: 250,
                       borderRadius: 250,
                       child: Text(
-                        "two-player mode".toUpperCase(),
+                        "two-player mode ".toUpperCase(),
                         style: TextStyle(
                             color: Colors.black.withOpacity(.8),
                             fontSize: 16,

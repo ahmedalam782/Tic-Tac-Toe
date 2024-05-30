@@ -45,7 +45,7 @@ class HistoryWidget extends StatelessWidget {
                     Text(
                       DateFormat('MMM d, y HH:mm')
                           .format(historyGame['date'].date.toLocal()),
-                      style: TextStyle(
+                      style: const TextStyle(
                         fontSize: 14,
                         fontWeight: FontWeight.w100,
                         color: Colors.black,
@@ -70,33 +70,33 @@ class HistoryWidget extends StatelessWidget {
                             )),
                           ),
                         ),
-                        Spacer(),
+                        const Spacer(),
                         Text(
                           historyGame['player_x_name'],
-                          style: TextStyle(
+                          style: const TextStyle(
                             fontSize: 15,
                             fontWeight: FontWeight.bold,
                             color: MyColor.kBlue,
                           ),
                         ),
-                        Spacer(),
-                        Text(
+                        const Spacer(),
+                        const Text(
                           "VS",
                           style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-                        Spacer(),
+                        const Spacer(),
                         Text(
                           historyGame['player_o_name'],
-                          style: TextStyle(
+                          style: const TextStyle(
                             color: MyColor.kPurple,
                             fontSize: 15,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-                        Spacer(),
+                        const Spacer(),
                         SizedBox(
                           height: 30,
                           width: 30,
@@ -116,7 +116,7 @@ class HistoryWidget extends StatelessWidget {
                         ),
                       ],
                     ),
-                    Text(
+                    const Text(
                       'Draw',
                       style: TextStyle(
                         fontSize: 15,

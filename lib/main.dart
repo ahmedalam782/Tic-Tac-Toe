@@ -1,4 +1,3 @@
-import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -39,7 +38,6 @@ class XOGameApp extends StatelessWidget {
         ..createDatabase(),
       child: BlocConsumer<TicAppCubit, AppState>(
         builder: (context, state) {
-          TicAppCubit cubit = TicAppCubit().get(context);
           return Sizer(
               builder: (context, orientation, deviceType) => MaterialApp(
                     title: 'XO Game',

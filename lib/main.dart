@@ -33,9 +33,7 @@ class XOGameApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => TicAppCubit()
-        ..playAppSound(forShared: isPlay)
-        ..createDatabase(),
+      create: (context) => TicAppCubit()..playAppSound(forShared: isPlay),
       child: BlocConsumer<TicAppCubit, AppState>(
         builder: (context, state) {
           return Sizer(

@@ -14,7 +14,6 @@ int playerXScore = 0;
 int playerOScore = 0;
 int filledBoxes = 0;
 bool isPlaySound=false;
-// late bool computerPlaying;
 
 void resetGame() {
   board = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
